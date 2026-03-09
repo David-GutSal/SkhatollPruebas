@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Navbar Pueblo CSS</title>
+
+<style>
+
+body{
+margin:0;
+font-family:sans-serif;
+background:#f4f4f4;
+}
+
+nav{
+display:flex;
+align-items:flex-end;
+background:#ddd;
+}
+
+.house{
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+background:#222;
+padding:10px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.house:hover{
+background:#c59d5f;
+}
+
+/* formas distintas */
+
+.h1{
+width:140px;
+height:100px;
+clip-path:polygon(0% 100%,0% 40%,50% 0%,100% 40%,100% 100%);
+}
+
+.h2{
+width:160px;
+height:120px;
+clip-path:polygon(0% 100%,0% 30%,50% 0%,100% 30%,100% 100%);
+}
+
+.h3{
+width:180px;
+height:140px;
+clip-path:polygon(0% 100%,0% 35%,50% 0%,100% 35%,100% 100%);
+}
+
+.h4{
+width:150px;
+height:110px;
+clip-path:polygon(0% 100%,0% 45%,50% 10%,100% 45%,100% 100%);
+}
+
+.h5{
+width:140px;
+height:100px;
+clip-path:polygon(0% 100%,0% 50%,50% 20%,100% 50%,100% 100%);
+}
+
+a{
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<a href="#"><div class="house h1">Inicio</div></a>
+<a href="#"><div class="house h2">Sala de juegos</div></a>
+<a href="#"><div class="house h3">Reglas y personajes</div></a>
+<a href="#"><div class="house h4">Sobre nosotros</div></a>
+<a href="#"><div class="house h5">Contacto</div></a>
+
+</nav>
+
+</body>
+</html>
