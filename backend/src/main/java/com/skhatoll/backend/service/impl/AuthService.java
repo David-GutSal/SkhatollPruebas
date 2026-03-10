@@ -6,6 +6,7 @@ import com.skhatoll.backend.dto.RegistroRequest;
 import com.skhatoll.backend.security.JwtUtil;
 import com.skhatoll.backend.entities.Usuario;
 import com.skhatoll.backend.repository.UsuarioRepository;
+import com.skhatoll.backend.service.interfaces.IAuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -16,7 +17,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
-public class AuthService implements IAuthService{
+public class AuthService implements IAuthService {
 
     private final UsuarioRepository usuarioRepository;
     private final PasswordEncoder passwordEncoder;
