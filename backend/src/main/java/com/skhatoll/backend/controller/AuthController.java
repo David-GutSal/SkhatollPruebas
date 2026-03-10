@@ -4,6 +4,7 @@ import com.skhatoll.backend.dto.AuthResponse;
 import com.skhatoll.backend.dto.LoginRequest;
 import com.skhatoll.backend.dto.RegistroRequest;
 import com.skhatoll.backend.service.impl.AuthService;
+import com.skhatoll.backend.service.interfaces.IAuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class AuthController {
 
-    private final AuthService authService;
+    private final IAuthService authService;
 
     // -------------------------------------------------------
     // POST /auth/registro

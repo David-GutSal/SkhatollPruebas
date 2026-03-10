@@ -16,7 +16,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
-public class AuthService {
+public class AuthService implements IAuthService{
 
     private final UsuarioRepository usuarioRepository;
     private final PasswordEncoder passwordEncoder;
