@@ -1,4 +1,4 @@
-package com.skhatoll.backend.dto;
+package com.skhatoll.backend.dto.auth;
 
 import lombok.Data;
 

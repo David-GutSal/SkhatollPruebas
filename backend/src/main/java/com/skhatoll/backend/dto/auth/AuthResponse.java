@@ -1,13 +1,12 @@
-package com.skhatoll.backend.dto;
+package com.skhatoll.backend.dto.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class JugadorDto {
-    private Integer idUsuario;
+public class AuthResponse {
+    private String token;
     private String nombre;
     private String codigoUuid;
-    private Boolean estaVivo;
 }

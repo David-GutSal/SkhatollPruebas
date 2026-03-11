@@ -27,9 +27,9 @@ public class SalaUsuario {
     @JoinColumn(name = "id_usuario", nullable = false)
     private Usuario usuario;
 
-    // id_rol se añadirá cuando se implementen los roles en la partida
-    @Column(name = "id_rol")
-    private Integer idRol;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_rol")
+    private Rol rol;
 
     @Column(name = "esta_vivo", nullable = false)
     @Builder.Default

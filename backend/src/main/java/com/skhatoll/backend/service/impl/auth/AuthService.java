@@ -1,12 +1,12 @@
-package com.skhatoll.backend.service.impl;
+package com.skhatoll.backend.service.impl.auth;
 
-import com.skhatoll.backend.dto.AuthResponse;
-import com.skhatoll.backend.dto.LoginRequest;
-import com.skhatoll.backend.dto.RegistroRequest;
+import com.skhatoll.backend.dto.auth.AuthResponse;
+import com.skhatoll.backend.dto.auth.LoginRequest;
+import com.skhatoll.backend.dto.auth.RegistroRequest;
 import com.skhatoll.backend.security.JwtUtil;
 import com.skhatoll.backend.entities.Usuario;
 import com.skhatoll.backend.repository.UsuarioRepository;
-import com.skhatoll.backend.service.interfaces.IAuthService;
+import com.skhatoll.backend.service.interfaces.auth.IAuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,6 +1,5 @@
 package com.skhatoll.backend.security;
 
-import com.skhatoll.backend.service.impl.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
