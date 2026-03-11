@@ -1,7 +1,7 @@
 package com.skhatoll.backend.config;
 
 import com.skhatoll.backend.security.JwtFilter;
-import com.skhatoll.backend.service.impl.UserDetailsServiceImpl;
+import com.skhatoll.backend.security.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,10 +1,9 @@
 package com.skhatoll.backend.controller;
 
-import com.skhatoll.backend.dto.AuthResponse;
-import com.skhatoll.backend.dto.LoginRequest;
-import com.skhatoll.backend.dto.RegistroRequest;
-import com.skhatoll.backend.service.impl.AuthService;
-import com.skhatoll.backend.service.interfaces.IAuthService;
+import com.skhatoll.backend.dto.auth.AuthResponse;
+import com.skhatoll.backend.dto.auth.LoginRequest;
+import com.skhatoll.backend.dto.auth.RegistroRequest;
+import com.skhatoll.backend.service.interfaces.auth.IAuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

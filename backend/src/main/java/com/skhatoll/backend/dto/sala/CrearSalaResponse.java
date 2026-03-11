@@ -1,4 +1,4 @@
-package com.skhatoll.backend.dto;
+package com.skhatoll.backend.dto.sala;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

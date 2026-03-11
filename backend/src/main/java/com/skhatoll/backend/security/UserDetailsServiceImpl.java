@@ -1,4 +1,4 @@
-package com.skhatoll.backend.service.impl;
+package com.skhatoll.backend.security;
 
 import com.skhatoll.backend.entities.Usuario;
 import com.skhatoll.backend.repository.UsuarioRepository;

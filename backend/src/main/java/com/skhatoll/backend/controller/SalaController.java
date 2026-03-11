@@ -1,7 +1,10 @@
 package com.skhatoll.backend.controller;
 
-import com.skhatoll.backend.dto.*;
-import com.skhatoll.backend.service.interfaces.ISalaService;
+import com.skhatoll.backend.dto.sala.AsignarNarradorRequest;
+import com.skhatoll.backend.dto.sala.CrearSalaResponse;
+import com.skhatoll.backend.dto.sala.JugadorDto;
+import com.skhatoll.backend.dto.sala.UnirseRequest;
+import com.skhatoll.backend.service.interfaces.sala.ISalaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
