@@ -44,7 +44,7 @@ public class Sala {
 
     @Column(name = "min_jugadores", nullable = false)
     @Builder.Default
-    private Integer minJugadores = 8;
+    private Integer minJugadores = 2;
 
     @Column(name = "max_jugadores", nullable = false)
     @Builder.Default
